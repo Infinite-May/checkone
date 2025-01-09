@@ -3,8 +3,8 @@
 int main(int argc,char *argv[])
 {
     int i;
-    for(i=2;i<argc;i++)
-        if(*argv[i]=='1')
+    for(i=2;i<argc+1;i++)
+        if(*argv[i]=="1")
         {
             printf("YES!\n");
         }
